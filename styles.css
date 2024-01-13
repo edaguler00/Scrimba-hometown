@@ -1,0 +1,86 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+}
+
+img {
+    width: 100px;
+}
+
+#hero{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d9/c7/f9/caption.jpg?w=1200&h=-1&s=1);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#title{
+    background-color: #1d3557;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#title-info{
+    margin-top: 0px;
+    width: 420px;
+    background-color: #457b9d;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 6px;
+}
+#activities{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1FAEE;
+    padding:20px 10px;
+    margin-bottom: 10px;
+}
+.activities-img{
+    border-radius: 40%;
+}
+#activities-img-div{
+    display: inherit;
+    justify-content: space-around;
+
+}
+#guide{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #A8DADC;
+    font-weight: bold;
+    border-radius: 20px;
+    border-bottom: 4px solid black;
+}
+#profil{
+    width: 150px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+a{
+    color: green;
+    text-decoration: underline;
+}
